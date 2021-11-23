@@ -274,7 +274,7 @@ section {
   background: #024e76;
 }
 
-.comtact-info > * {
+.contact-info > * {
   flex: 1;
   margin: 15px;
 }
@@ -403,6 +403,25 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  header h1 {
+  .hero-form button {
+    width: 100%;
+  }
+  .section-title {
+    width: 95%;
+  }
+  .intro p {
+    width: 100%;
+  }
+  .trainer {
+    flex: 0 100%;
+  }
+  .contact-info {
+    text-align: center;
+  }
+  .contact-info > * {
+    flex: 0 100%;
+  }
+  .contact-form {
+    order: 3;
   }
 }
